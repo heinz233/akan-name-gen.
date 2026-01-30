@@ -1,21 +1,38 @@
 .form{
-  
+box-sizing
   background-size: 3cm;
-  box-shadow: 2px;
-  background: grey;
-  grid-template-columns: repeat(2,1fr) ;
-  
-  direction: ltr;
-  flex-direction: column-reverse;
+  box-shadow: 2px
+  text-align: center;
+  background-image: url(img/nu.jpg);
+  object-fit: cover;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  max-width: 8cm;
+  height: 5cm;
   align-items: ;
   padding: 00%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+ box-sizing: border-box;
+ width: 33cm;
 }
+
+#head{
+  text-align: center;
+  padding: 00%;
+  background-size: 3cm;
+  color: whitesmoke;
+
+}
+
 
 label{
   display: block;
   text-align: center;
   padding: 00%;
   background-size: 3cm;
+  color: whitesmoke;
 }
 
 input{
@@ -24,6 +41,7 @@ input{
   text-align: center;
   padding: 00%;
   background-size: 3cm;
+  height: 10cm
   justify-content: ;
 }
 
@@ -34,6 +52,7 @@ select{
   padding: 00%;
   background-size: 3cm;
   justify-content: ;
+  height: 22px;
 }
 button{
   display: block;
@@ -43,4 +62,15 @@ button{
   background-size: 3cm;
   justify-content: ;
   margin-top: 1cm;
+}
+body{
+   background-image: url(img/jjj.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   color: whitesmoke;
+}
+
+#gen{
+ background-color: rgb(0, 255, 76);
 }
