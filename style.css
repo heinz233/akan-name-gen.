@@ -1,0 +1,46 @@
+.form{
+  
+  background-size: 3cm;
+  box-shadow: 2px;
+  background: grey;
+  grid-template-columns: repeat(2,1fr) ;
+  
+  direction: ltr;
+  flex-direction: column-reverse;
+  align-items: ;
+  padding: 00%;
+}
+
+label{
+  display: block;
+  text-align: center;
+  padding: 00%;
+  background-size: 3cm;
+}
+
+input{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 00%;
+  background-size: 3cm;
+  justify-content: ;
+}
+
+select{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 00%;
+  background-size: 3cm;
+  justify-content: ;
+}
+button{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 00%;
+  background-size: 3cm;
+  justify-content: ;
+  margin-top: 1cm;
+}
